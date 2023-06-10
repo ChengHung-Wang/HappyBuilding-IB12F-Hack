@@ -1,0 +1,40 @@
+.cta-two {
+    padding: 120px 0;
+    background-color: #fefbf4;
+}
+.cta-two .container {
+    position: relative;
+}
+.cta-two__moc {
+    position: absolute;
+    top: -40px;
+    right: -35px;
+    -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+}
+.cta-two .block-title {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.cta-two .block-title__title {
+    letter-spacing: -.04em;
+}
+.cta-two__icon {
+    font-size: 62px;
+    color: #ffa065;
+}
+.cta-two__text {
+    margin-bottom: 50px;
+}
+.cta-two__text p {
+    margin: 0;
+    color: #74727a;
+    font-size: 18px;
+    line-height: 34px;
+}
+.cta-two__text p + p {
+    margin-top: 35px;
+}
+.cta-two .thm-btn {
+    padding: 18px 55.5px;
+}

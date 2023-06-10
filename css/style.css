@@ -1,0 +1,263 @@
+body, html {
+    margin: 0;
+    position: relative;
+}
+a:active, a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+nav {
+    background: rgba(0, 0, 0, .6)!important;
+    backdrop-filter: blur(30px) saturate(180%);
+}
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fsc {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fec {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#shop {
+    width: 100vw;
+    height: 100vh;
+}
+.shop-section-hero {
+    height: 60vh;
+    background: #111111;
+}
+.shop-hero-bg {
+    background: no-repeat left/cover url("../img/shopItems/shopHero_dark.png");
+    height: 60vh;
+}
+
+.heroDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    color: white;
+}
+.heroTitle {
+    font-width: 900;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
+.cbtn {
+    color: white;
+    border-radius: 400px;
+    background: transparent;
+    transition: .3s ease-in-out;
+    font-size: 16px;
+    border: 2px white solid;
+    padding: 7.5px 15px;
+}
+.cbtn:hover {
+    background: white;
+    color: #333;
+}
+.shopMain-affix {
+    height: 800px;
+}
+.shopOption {
+    cursor: pointer;
+}
+.shopOptionImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border: .1px rgba(0, 0, 0, .2) solid;
+    padding: 7.5px;
+}
+.shopOptionImg> img {
+    opacity: .5;
+}
+.shopOptionText> span {
+    font-size: 14px;
+}
+.shopItem {
+    cursor: pointer;
+}
+.img1-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img1-1frame {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+@-webkit-keyframes featureImgBounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes featureImgBounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}
+
+
+
+
+/* ... */
+.block-title {
+    margin-bottom: 45px;
+}
+.block-title__title {
+    margin: 0;
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: 400;
+    color: #2a2833;
+    line-height: 1.2em;
+}
+.block-title__title span {
+    font-weight: 700;
+}
+
+.thm-btn {
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2a2833;
+    padding: 13px 41px;
+    border-radius: 5px;
+    -webkit-transition: background .4s ease, color .4s ease;
+    transition: background .4s ease, color .4s ease;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4eb5), to(#ffa065));
+    background-image: linear-gradient(90deg, #ff4eb5 0%, #ffa065 100%);
+    position: relative;
+}
+.thm-btn:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+}
+.thm-btn span {
+    position: relative;
+}
+.thm-btn:hover {
+    color: #fff;
+}
+.thm-btn:hover:before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+@font-face {
+    font-family: 'dimon-icon';
+    src:  url('fonts/dimon-icon.eot?ge3xd6');
+    src:  url('fonts/dimon-icon.eot?ge3xd6#iefix') format('embedded-opentype'),
+    url('fonts/dimon-icon.ttf?ge3xd6') format('truetype'),
+    url('fonts/dimon-icon.woff?ge3xd6') format('woff'),
+    url('fonts/dimon-icon.svg?ge3xd6#dimon-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="dimon-icon-"], [class*=" dimon-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dimon-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dimon-icon-data1:before {
+    content: "\e908";
+}
+.dimon-icon-data:before {
+    content: "\e909";
+}
+.dimon-icon-human-resources:before {
+    content: "\e900";
+}
+.dimon-icon-laptop:before {
+    content: "\e901";
+}
+.dimon-icon-left-arrow:before {
+    content: "\e902";
+}
+.dimon-icon-right-arrow:before {
+    content: "\e90a";
+}
+.dimon-icon-presentation:before {
+    content: "\e903";
+}
+.dimon-icon-strategy:before {
+    content: "\e904";
+}
+.dimon-icon-target:before {
+    content: "\e905";
+}
+.dimon-icon-training:before {
+    content: "\e906";
+}
+.dimon-icon-visualization:before {
+    content: "\e907";
+}
+.mt-90 {
+    margin-top: 90px;
+}

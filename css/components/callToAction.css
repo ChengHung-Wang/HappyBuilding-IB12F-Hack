@@ -1,0 +1,73 @@
+.cta-one {
+    padding: 165px 0;
+    position: relative;
+}
+.cta-one__bg {
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+}
+.cta-one .container {
+    position: relative;
+}
+.cta-one .container:before {
+    content: '';
+    width: 448px;
+    height: 448px;
+    border-radius: 50%;
+    background-color: #f6fff7;
+    position: absolute;
+    top: -19%;
+    left: -12%;
+}
+.cta-one__moc {
+    position: absolute;
+    top: -45px;
+    left: -10%;
+    -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+}
+.cta-one .block-title {
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.cta-one .block-title__title {
+    letter-spacing: -.04em;
+}
+.cta-one__icon {
+    font-size: 62px;
+    color: #ff4eb5;
+}
+.cta-one__text p {
+    margin: 0;
+    color: #74727a;
+    font-size: 24px;
+    line-height: 40px;
+}
+.cta-one ul {
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.cta-one ul li {
+    position: relative;
+    font-size: 16px;
+    color: #74727a;
+    padding-left: 30px;
+}
+.cta-one ul li + li {
+    margin-top: 3px;
+}
+.cta-one ul li i {
+    font-size: 18px;
+    color: #ffa065;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cta-one .thm-btn {
+    padding: 18px 55.5px;
+}

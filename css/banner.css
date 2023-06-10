@@ -1,0 +1,358 @@
+.banner-one {
+    position: relative;
+    background-image: url(../img/images/background/banner-bg-1-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.banner-one .container {
+    padding-top: 350px;
+    padding-bottom: 230px;
+    position: relative;
+}
+.banner-one__title {
+    margin: 0;
+    color: #2a2833;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 1em;
+    letter-spacing: -.06em;
+}
+.banner-one__title span {
+    font-weight: 500;
+}
+.banner-one__text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 36px;
+    color: #74727a;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.banner-one__btn {
+    padding: 18px 55px;
+}
+.banner-one__moc {
+    position: absolute;
+    bottom: 7%;
+    right: -30px;
+    background: linear-gradient(40deg, #ff43c0 0%, #ffa95c 100%);
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 20px 60px 0px rgba(244, 151, 190, 0.8);
+    box-shadow: 0px 20px 60px 0px rgba(244, 151, 190, 0.8);
+    width: 610px;
+    height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+}
+/*.banner-one__moc:before {*/
+/*    content: '';*/
+/*    width: 639px;*/
+/*    height: 639px;*/
+/*    background-image: linear-gradient(40deg, #ff43c0 0%, #ffa95c 100%);*/
+/*    -webkit-box-shadow: 0px 20px 60px 0px rgba(244, 151, 190, 0.8);*/
+/*    box-shadow: 0px 20px 60px 0px rgba(244, 151, 190, 0.8);*/
+/*    border-radius: 50%;*/
+/*    position: absolute;*/
+/*    -webkit-transform-origin: center bottom;*/
+/*    transform-origin: center bottom;*/
+/*    -webkit-animation-fill-mode: both;*/
+/*    animation-fill-mode: both;*/
+/*    -webkit-animation-name: bounce;*/
+/*    animation-name: bounce;*/
+/*    -webkit-animation-timing-function: ease-out;*/
+/*    animation-timing-function: ease-out;*/
+/*    -webkit-animation-duration: 5s;*/
+/*    animation-duration: 5s;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+.banner-one__moc img {
+    position: relative;
+    -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+[class*=banner-one__shape-] {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-animation-name: bubbleMover;
+    animation-name: bubbleMover;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.banner-one__shape-1 {
+    background-image: linear-gradient(40deg, #0db8ff 0%, #f332ff 100%);
+    -webkit-box-shadow: 0px 20px 60px 0px rgba(141, 142, 255, 0.8);
+    box-shadow: 0px 20px 60px 0px rgba(141, 142, 255, 0.8);
+    width: 143px;
+    height: 143px;
+    top: 5%;
+    left: 3%;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-perspective: 150px;
+    perspective: 150px;
+}
+
+.banner-one__shape-2 {
+    background-image: linear-gradient(40deg, #39aeff 0%, #3cff53 100%);
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(58, 212, 173, 0.8);
+    box-shadow: 0px 20px 40px 0px rgba(58, 212, 173, 0.8);
+    width: 85px;
+    height: 85px;
+    top: 12%;
+    left: 37%;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
+
+.banner-one__shape-3 {
+    background-image: linear-gradient(40deg, #ff43c0 0%, #ffa95c 100%);
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(255, 118, 142, 0.8);
+    box-shadow: 0px 20px 40px 0px rgba(255, 118, 142, 0.8);
+    width: 85px;
+    height: 85px;
+    bottom: 12%;
+    left: 6%;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
+
+.banner-one__shape-4 {
+    background-image: linear-gradient(40deg, #ff703e 0%, #ffec4e 100%);
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(255, 178, 71, 0.8);
+    box-shadow: 0px 20px 40px 0px rgba(255, 178, 71, 0.8);
+    width: 85px;
+    height: 85px;
+    top: 20%;
+    right: 4%;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
+
+@-webkit-keyframes bubbleMover {
+    0% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+    }
+    30% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+    50% {
+        -webkit-transform: translateY(50px) translateX(100px) rotate(45deg);
+        transform: translateY(50px) translateX(100px) rotate(45deg);
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+    }
+    80% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+    }
+    100% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+}
+
+@keyframes bubbleMover {
+    0% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+    }
+    30% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+    50% {
+        -webkit-transform: translateY(50px) translateX(100px) rotate(45deg);
+        transform: translateY(50px) translateX(100px) rotate(45deg);
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+    }
+    80% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+    }
+    100% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+}
+.banner-two {
+    position: relative;
+    background-color: #2a2833;
+    background-image: url(../images/background/banner-2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 120px;
+}
+.banner-two .container {
+    padding-top: 260px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.banner-two__title {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 1em;
+    letter-spacing: -.06em;
+}
+.banner-two__title span {
+    font-weight: 500;
+}
+.banner-two__text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.banner-two__btn {
+    color: #fff;
+    background-image: none;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 16px 55px;
+}
+.banner-two__btn:before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border: 2px solid;
+    -o-border-image: linear-gradient(90deg, #ff4eb5 0%, #ffa065 100%);
+    border-image: -webkit-gradient(linear, left top, right top, from(#ff4eb5), to(#ffa065));
+    border-image: linear-gradient(90deg, #ff4eb5 0%, #ffa065 100%);
+    border-image-slice: 1;
+}
+.banner-two__btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff4eb5), to(#ffa065));
+    background-image: linear-gradient(90deg, #ff4eb5 0%, #ffa065 100%);
+    border-radius: 5px;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    z-index: 0;
+}
+.banner-two__btn span {
+    z-index: 2;
+}
+.banner-two__btn:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.banner-two__btn:hover:after {
+    opacity: 1;
+}
+.banner-two__moc {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.banner-two__moc img {
+    position: relative;
+}
+[class*=banner-two__shape-] {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-animation-name: bubbleMover;
+    animation-name: bubbleMover;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.banner-two__shape-1 {
+    background-image: linear-gradient(40deg, #0db8ff 0%, #f332ff 100%);
+    width: 143px;
+    height: 143px;
+    top: 5%;
+    left: 3%;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-perspective: 150px;
+    perspective: 150px;
+}
+
+.banner-two__shape-2 {
+    background-image: linear-gradient(40deg, #39aeff 0%, #3cff53 100%);
+    width: 85px;
+    height: 85px;
+    top: 12%;
+    left: 37%;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
+
+.banner-two__shape-3 {
+    background-image: linear-gradient(40deg, #ff43c0 0%, #ffa95c 100%);
+    width: 85px;
+    height: 85px;
+    bottom: 12%;
+    left: 6%;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
+
+.banner-two__shape-4 {
+    background-image: linear-gradient(40deg, #ff703e 0%, #ffec4e 100%);
+    width: 85px;
+    height: 85px;
+    top: 20%;
+    right: 4%;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    -webkit-perspective: 85px;
+    perspective: 85px;
+}
