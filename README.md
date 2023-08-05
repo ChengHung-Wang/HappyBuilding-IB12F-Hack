@@ -1,9 +1,39 @@
 # 網頁魔法師訓練營 台灣蘭花科技大學 鑽石大樓 12F 開房預約系統
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![](https://hackmd.io/_uploads/HJZE1lLv3.png)
 
 這是一間位於台北萬華非常有名的大樓，其大樓座落在私立台灣蘭花科技大學裡，本大樓專門提供給人帶來歡樂帶來愛。
 
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhian66"><img src="https://avatars.githubusercontent.com/u/50503333?v=4?s=100" width="100px;" alt="an"/><br /><sub><b>an</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdownlint-disable -->
+
+@all-contributors
+please add @<zhian66> for <contributions>.
+please add @<CCcat8059> for <contributions>.
+please add @<EricLee911110> for <contributions>.
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <details>
     <summary>安裝流程</summary>

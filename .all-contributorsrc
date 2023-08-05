@@ -1,0 +1,25 @@
+{
+  "projectName": "HappyBuilding-IB12F-Hack",
+  "projectOwner": "ChengHung-Wang",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "zhian66",
+      "name": "an",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50503333?v=4",
+      "profile": "https://github.com/zhian66",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
