@@ -2,36 +2,11 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<center>
 
-![](https://hackmd.io/_uploads/HJZE1lLv3.png)
+>![](https://hackmd.io/_uploads/HJZE1lLv3.png)<br><br>這是一間位於台北萬華非常有名的大樓，其大樓座落在私立台灣蘭花科技大學裡，本大樓專門提供給人帶來歡樂帶來愛。
 
-這是一間位於台北萬華非常有名的大樓，其大樓座落在私立台灣蘭花科技大學裡，本大樓專門提供給人帶來歡樂帶來愛。
-
-## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhian66"><img src="https://avatars.githubusercontent.com/u/50503333?v=4?s=100" width="100px;" alt="楊芷安"/><br /><sub><b>楊芷安</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Documentation">📖</a> <a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Code">💻</a> <a href="#data-zhian66" title="Data">🔣</a> <a href="#ideas-zhian66" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-zhian66" title="Research">🔬</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CCcat8059"><img src="https://avatars.githubusercontent.com/u/55608737?v=4?s=100" width="100px;" alt="林信佑"/><br /><sub><b>林信佑</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=CCcat8059" title="Documentation">📖</a> <a href="#research-CCcat8059" title="Research">🔬</a> <a href="#tutorial-CCcat8059" title="Tutorials">✅</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EricLee911110"><img src="https://avatars.githubusercontent.com/u/79837982?v=4?s=100" width="100px;" alt="Eric Lee"/><br /><sub><b>Eric Lee</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=EricLee911110" title="Documentation">📖</a> <a href="#research-EricLee911110" title="Research">🔬</a> <a href="#tutorial-EricLee911110" title="Tutorials">✅</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
+</center>
 <details>
     <summary>安裝流程</summary>
 
@@ -174,6 +149,31 @@ api_version:  api/v1/
 長的一點都不像對吧（You can say Yes or Yes!!!!)
 
 ---
+
+## 貢獻清單
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhian66"><img src="https://avatars.githubusercontent.com/u/50503333?v=4?s=100" width="100px;" alt="楊芷安"/><br /><sub><b>楊芷安</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Documentation">📖</a> <a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Code">💻</a> <a href="#data-zhian66" title="Data">🔣</a> <a href="#ideas-zhian66" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-zhian66" title="Research">🔬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CCcat8059"><img src="https://avatars.githubusercontent.com/u/55608737?v=4?s=100" width="100px;" alt="林信佑"/><br /><sub><b>林信佑</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=CCcat8059" title="Documentation">📖</a> <a href="#research-CCcat8059" title="Research">🔬</a> <a href="#tutorial-CCcat8059" title="Tutorials">✅</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EricLee911110"><img src="https://avatars.githubusercontent.com/u/79837982?v=4?s=100" width="100px;" alt="Eric Lee"/><br /><sub><b>Eric Lee</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=EricLee911110" title="Documentation">📖</a> <a href="#research-EricLee911110" title="Research">🔬</a> <a href="#tutorial-EricLee911110" title="Tutorials">✅</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## TODO List
 1. 這什麼鬼規定啦，哪有 Happy Building 不能色色的，我要變管理員把規定換掉！
