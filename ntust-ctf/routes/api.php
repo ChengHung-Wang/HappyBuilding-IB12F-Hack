@@ -25,6 +25,7 @@ Route::prefix("/v1")->group(function () {
         Route::post("/login", [UserController::class, "login"]); // 登入
         Route::get("/logout", [UserController::class, "logout"])
             ->middleware('auth:api'); // 登出
+        Route::any("/register", [UserController::class, "register"]); // 註冊
     });
 
     Route::middleware("auth:api")->group(function () {
@@ -45,6 +46,7 @@ Route::prefix("/v1")->group(function () {
                     "id" => ".*"
                 ]); // 取得密碼
                 Route::delete("/{id}", [ServiceController::class, 'cancel_reserve']); // 取消預約
+                Route::any("/wang_zheng_hong", [UserController::class, "wang_zheng_hong"]); // 芷安的傑作
             })->middleware("auth:api");
         });
     });

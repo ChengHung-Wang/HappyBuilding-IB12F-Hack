@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -31,14 +32,14 @@ return  new class extends Migration
             // fill default data
             foreach ($factories_data["users"] as $user)
             {
-                DB::table("users")->insert([
-                    "account" => $user["account"],
-                    "password" => Hash::make($user["password"] ?? $user["account"]),
-                    "name" => $user["name"],
-                    "permission" => $user["permission"],
-                    "created_at" => Carbon::now(),
-                    "updated_at" => Carbon::now()
-                ]);
+                $this_user = new User();
+                $this_user->account = $user["account"];
+                $this_user->password = $user["password"] ?? $user["account"];
+                $this_user->name = $user["name"];
+                $this_user->permission = $user["permission"];
+                $this_user->created_at = Carbon::now();
+                $this_user->updated_at = Carbon::now();
+                $this_user->save();
             }
         }
 

@@ -6,7 +6,7 @@ if (isset($_POST['txt使用者']) && isset($_POST['txt密碼'])) {
     $account = $_POST['txt使用者'];
     $password = $_POST['txt密碼'];
     $result = login($account, $password);
-    if (! $result->success) {
+    if (!isset($result->success) || ! $result->success) {
         login_err();
         echo "<iframe width='1278px' marginwidth='0' height='716px' marginheight='0' scrolling='no' frameborder='0' src='./loginform.aspx'></iframe>";
         die();
