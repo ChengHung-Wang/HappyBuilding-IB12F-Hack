@@ -12,7 +12,7 @@
   "contributors": [
     {
       "login": "zhian66",
-      "name": "an",
+      "name": "楊芷安",
       "avatar_url": "https://avatars.githubusercontent.com/u/50503333?v=4",
       "profile": "https://github.com/zhian66",
       "contributions": [
@@ -25,9 +25,20 @@
     },
     {
       "login": "CCcat8059",
-      "name": "CCcat",
+      "name": "林信佑",
       "avatar_url": "https://avatars.githubusercontent.com/u/55608737?v=4",
       "profile": "https://github.com/CCcat8059",
+      "contributions": [
+        "doc",
+        "research",
+        "tutorial"
+      ]
+    },
+    {
+      "login": "EricLee911110",
+      "name": "Eric Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79837982?v=4",
+      "profile": "https://github.com/EricLee911110",
       "contributions": [
         "doc",
         "research",

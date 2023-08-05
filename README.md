@@ -1,6 +1,6 @@
 # 網頁魔法師訓練營 台灣蘭花科技大學 鑽石大樓 12F 開房預約系統
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![](https://hackmd.io/_uploads/HJZE1lLv3.png)
@@ -14,8 +14,9 @@
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhian66"><img src="https://avatars.githubusercontent.com/u/50503333?v=4?s=100" width="100px;" alt="an"/><br /><sub><b>an</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Documentation">📖</a> <a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Code">💻</a> <a href="#data-zhian66" title="Data">🔣</a> <a href="#ideas-zhian66" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-zhian66" title="Research">🔬</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CCcat8059"><img src="https://avatars.githubusercontent.com/u/55608737?v=4?s=100" width="100px;" alt="CCcat"/><br /><sub><b>CCcat</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=CCcat8059" title="Documentation">📖</a> <a href="#research-CCcat8059" title="Research">🔬</a> <a href="#tutorial-CCcat8059" title="Tutorials">✅</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhian66"><img src="https://avatars.githubusercontent.com/u/50503333?v=4?s=100" width="100px;" alt="楊芷安"/><br /><sub><b>楊芷安</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Documentation">📖</a> <a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=zhian66" title="Code">💻</a> <a href="#data-zhian66" title="Data">🔣</a> <a href="#ideas-zhian66" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-zhian66" title="Research">🔬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CCcat8059"><img src="https://avatars.githubusercontent.com/u/55608737?v=4?s=100" width="100px;" alt="林信佑"/><br /><sub><b>林信佑</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=CCcat8059" title="Documentation">📖</a> <a href="#research-CCcat8059" title="Research">🔬</a> <a href="#tutorial-CCcat8059" title="Tutorials">✅</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EricLee911110"><img src="https://avatars.githubusercontent.com/u/79837982?v=4?s=100" width="100px;" alt="Eric Lee"/><br /><sub><b>Eric Lee</b></sub></a><br /><a href="https://github.com/ChengHung-Wang/HappyBuilding-IB12F-Hack/commits?author=EricLee911110" title="Documentation">📖</a> <a href="#research-EricLee911110" title="Research">🔬</a> <a href="#tutorial-EricLee911110" title="Tutorials">✅</a></td>
     </tr>
   </tbody>
 </table>
