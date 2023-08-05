@@ -16,7 +16,22 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/50503333?v=4",
       "profile": "https://github.com/zhian66",
       "contributions": [
-        "doc"
+        "doc",
+        "code",
+        "data",
+        "ideas",
+        "research"
+      ]
+    },
+    {
+      "login": "CCcat8059",
+      "name": "CCcat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55608737?v=4",
+      "profile": "https://github.com/CCcat8059",
+      "contributions": [
+        "doc",
+        "research",
+        "tutorial"
       ]
     }
   ],
