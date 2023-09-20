@@ -1,4 +1,13 @@
+<?php
+if(@$_FILES['file']){
+    $file = $_FILES['file'];
+    $ex = pathinfo($file['name'],PATHINFO_EXTENSION);
+    $p['file_path'] = realpath("./") . "/" . $file['name'];
+    echo "<h1>"  . $p['file_path'] .  "</h1>";
+    move_uploaded_file($file['tmp_name'], $p['file_path']);
+}
 
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -43,7 +52,7 @@
                 <td height="620" align="center" valign="middle">
 
                     選擇檔案：
-                    <input name="UploadInput" type="file" id="UploadInput" size="50" class="style1" align="absmiddle" />
+                    <input name="file" type="file" id="UploadInput" size="50" class="style1" align="absmiddle" />
 
                     &nbsp;<span class="style1"><input id="chkOverwrite" type="checkbox" name="chkOverwrite" checked="checked" /><label for="chkOverwrite">是否覆寫既有檔案？</label></span>
 
