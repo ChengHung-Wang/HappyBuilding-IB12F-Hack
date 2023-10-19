@@ -97,9 +97,9 @@ class ServiceController extends Controller
                 "reason" => $e->getMessage()
             ], "ERR_MISSING_FIELD");
         }
-        if (str_replace("alert", "", $request->get("for")) != $request->get("for")) {
-            return $this->fail(message: "ERR_XSS_ATTACK");
-        }
+        // if (str_replace("alert", "", $request->get("for")) != $request->get("for")) {
+        //     return $this->fail(message: "ERR_XSS_ATTACK");
+        // }
         if ((int)$request->get("start_at") < 9 || (int)$request->get("end_at") > 21) {
             return $this->fail(message: "ERR_TIME_NOT_VALID");
         }
